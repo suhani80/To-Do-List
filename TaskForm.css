@@ -1,0 +1,96 @@
+
+.task-form-container {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(8px);
+
+  padding: 25px;
+  border-radius: 18px;
+  margin-bottom: 30px;
+
+  border: 1px solid rgba(255, 255, 255, 0.45);
+   box-shadow: 0 7px 30px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0 8px 30px rgba(70, 50, 30, 0.12); */
+}
+
+.task-form-container h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #3f3935;
+}
+
+.task-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-form-container input,
+.task-form-container textarea {
+  width: 100%;
+  padding: 13px 15px;
+
+  /* Input ko bhi slightly transparent rakha hai */
+  background: rgba(255, 255, 255, 0.55);
+
+  border: 1px solid rgba(120, 100, 85, 0.25);
+  border-radius: 10px;
+  outline: none;
+
+  font-size: 14px;
+  font-family: inherit;
+  color: #332d29;
+
+  transition: 0.2s;
+}
+
+.task-form-container input::placeholder,
+.task-form-container textarea::placeholder {
+  color: #77706b;
+}
+
+.task-form-container input:focus,
+.task-form-container textarea:focus {
+  border-color: #6e4a37;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 0 3px rgba(110, 74, 55, 0.08);
+}
+
+.task-form-container textarea {
+  resize: vertical;
+}
+
+.task-form-container button {
+  width: fit-content;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 9px;
+
+  background-color: #6e4a37;
+  color: white;
+
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.task-form-container button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.cancel-btn {
+  background: #777 !important;
+}
+
+.form-error {
+  color: #e53935;
+  font-size: 13px;
+}
+

@@ -1,0 +1,74 @@
+
+
+.task-card {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(8px);
+
+  border: 1px solid rgba(232, 232, 232, 0.8);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 15px;
+  transition: 0.2s;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+}
+
+.task-card.completed {
+  opacity: 0.7;
+}
+
+.task-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.task-title-row h3 {
+  font-size: 18px;
+}
+
+.task-content p {
+  color: #747575;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.status {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #f7f0d9;
+  color: #856404;
+  white-space: nowrap;
+}
+
+.completed-status {
+  background: #d4edda;
+  color: #155724;
+}
+.task-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.task-actions button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 7px;
+  cursor: pointer;
+  background: #4274ac;
+  color: white;
+}
+
+.task-actions .delete-btn {
+  background: #ce4543;
+}
+
+.task-actions .edit-btn {
+  background: #e59722;
+}

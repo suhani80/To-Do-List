@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./components/2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #222;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 20px 7%;
+}
+
+.app h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.app p {
+  color: #908f8f;
+}
+.page-header {
+  margin-bottom: 10px;
+}
+
+.page-header p {
+  color: #6f6c6a;
+  font-weight: 400;
+  padding-left: 4px;
+  font-size: 11px;
+}
+.empty-state {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 45px 20px;
+  border: 1px solid rgba(232, 232, 232, 0.8);
+  border-radius: 14px;
+}
+
+.empty-state h3 {
+  margin-bottom: 8px;
+}
+
+.empty-state p {
+  color: #646363;
+}
+
+@media (max-width: 600px) {
+
+  .navbar {
+    padding: 8px 0 15px;
+  }
+
+  .navbar-logo {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+  }
+
+  .task-title-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .task-actions {
+    flex-wrap: wrap;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-buttons {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

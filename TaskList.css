@@ -1,0 +1,15 @@
+.empty-state {
+  text-align: center;
+  background: white;
+  padding: 45px 20px;
+  border: 1px solid #e8e8e8;
+  border-radius: 14px;
+}
+
+.empty-state h3 {
+  margin-bottom: 8px;
+}
+
+.empty-state p {
+  color: #646363;
+}
